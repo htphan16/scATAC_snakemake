@@ -1,0 +1,21 @@
+format: {fastq, bam, bigWig}
+bam_type: {sample, pseudobulk}
+sample: none
+cell_type: {cell type file}
+cores: 8
+genome:
+  fasta: none
+  gencode: none
+registry:
+  rdhss: none
+  ccres: none
+annotation: {True, False}
+barcode: {barcode file, none}
+bigWigs: {bigWig directory, none}
+peaks: {peaks directory, none}
+sample_bams: {sample bams directory, none}
+pseudobulk_bams: {sample bams directory, none}
+fastqs: {fastqs directory, none}
+10X_outs: {10X_outs, none}
+peaks_bigWigs: {peaks bigWigs directory}
+peaks_published: {peaks published file}
